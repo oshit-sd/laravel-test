@@ -18,7 +18,7 @@
                     @else
                     <iframe class="iframe" width="100%" height="400" src="https://www.youtube.com/embed/{{ $post->video_url }}" frameborder="0" allowfullscreen></iframe>
                     @endif
-                    <p class="mt-3" style="font-size: 13px;">{{ $post->description??"" }}</p>
+                    <p class="mt-3" style="font-size: 15px;">{{ $post->description??"" }}</p>
                 </div>
             </div>
 
